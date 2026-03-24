@@ -9,7 +9,7 @@ const require = createRequire(moduleUrl);
 const { dependencies: deps } = require('./package.json');
 
 const port = 3001;
-const deployedHostOrigin = process.env.HOST_APP_ORIGIN || 'https://ecom-mfe-host.vercel.app';
+const deployedHostOrigin = process.env.HOST_APP_ORIGIN || 'https://ecom-mfe-host-v2.vercel.app';
 
 const args = parseArgs(process.argv.slice(2));
 const mode = args.mode || 'development';
